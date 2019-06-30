@@ -15,7 +15,10 @@ namespace WebStore.Controllers
                 FirstName = "Иван",
                 SurName = "Иванов",
                 Patronymic = "Иванович",
-                Age = 22
+                Age = 22,
+                City = "Москва",
+                Profession = "Слесарь",
+                Experience = 3
             },
             new EmployeeView
             {
@@ -23,7 +26,43 @@ namespace WebStore.Controllers
                 FirstName = "Владислав",
                 SurName = "Петров",
                 Patronymic = "Иванович",
-                Age = 35
+                Age = 35,
+                City = "Москва",
+                Profession = "Токарь",
+                Experience = 9
+            },
+             new EmployeeView
+            {
+                Id = 3,
+                FirstName = "Геннадий",
+                SurName = "Орлов",
+                Patronymic = "Петрович",
+                Age = 33,
+                City = "Санкт-Петербург",
+                Profession = "Экономист",
+                Experience = 7
+            },
+              new EmployeeView
+            {
+                Id = 4,
+                FirstName = "Семен",
+                SurName = "Семенов",
+                Patronymic = "Семенович",
+                Age = 28,
+                City = "Москва",
+                Profession = "Переводчик",
+                Experience = 5
+            },
+               new EmployeeView
+            {
+                Id = 5,
+                FirstName = "Владислав",
+                SurName = "Галкин",
+                Patronymic = "Иванович",
+                Age = 40,
+                City = "Саратов",
+                Profession = "Водитель",
+                Experience = 12
             }
         };
 

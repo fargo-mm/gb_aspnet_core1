@@ -14,10 +14,15 @@
     <table>
         <tr>
             <td>@Model.Id</td>
-            <td>@Model.FirstName</td>
+            <td>
+                @Html.ActionLink(Model.FirstName, "Index", new { id = Model.Id })
+            </td>
             <td>@Model.SurName</td>
             <td>@Model.Patronymic</td>
             <td>@Model.Age</td>
+            <td>@Model.City</td>
+            <td>@Model.Profession</td>
+            <td>@Model.Experience</td>
         </tr>
     </table>
 </body>
